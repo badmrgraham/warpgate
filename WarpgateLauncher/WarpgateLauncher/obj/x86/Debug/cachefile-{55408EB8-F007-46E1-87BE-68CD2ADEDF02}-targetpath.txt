@@ -1,0 +1,9 @@
+Content\images\windowborder\bottomleft.xnb
+Content\images\windowborder\bottomright.xnb
+Content\images\windowborder\sidebottom.xnb
+Content\images\windowborder\sideleft.xnb
+Content\images\windowborder\sideright.xnb
+Content\images\windowborder\sidetop.xnb
+Content\images\windowborder\topleft.xnb
+Content\images\windowborder\topright.xnb
+Content\topleft.xnb

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sectors>
+    <Sector>
+      <Name>Home</Name>
+      <Systems>
+        <SolarSystem>
+          <Name>Sol</Name>
+          <Stations>
+            <Station xsi:type="Planet">
+              <Faction>Neutral</Faction>
+              <Name>Earth</Name>
+            </Station>
+            <Station xsi:type="SpaceStation">
+              <Faction>Mouth</Faction>
+              <Name>Mars</Name>
+            </Station>
+          </Stations>
+        </SolarSystem>
+      </Systems>
+    </Sector>
+    <Sector>
+      <Name>Vega</Name>
+      <Systems>
+        <SolarSystem>
+          <Name>Vega</Name>
+          <Stations>
+            <Station xsi:type="SpaceStation">
+              <Faction>Hand</Faction>
+              <Name>TCS Tiger's Claw</Name>
+            </Station>
+            <Station xsi:type="SpaceStation">
+              <Faction>Hand</Faction>
+              <Name>TCS Concordia</Name>
+            </Station>
+          </Stations>
+        </SolarSystem>
+      </Systems>
+    </Sector>
+  </Sectors>
+</GameState>

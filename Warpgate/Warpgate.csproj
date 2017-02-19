@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82750DB1-7886-4E7F-B5A7-4D50ECC2DE73}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Warpgate</RootNamespace>
+    <AssemblyName>Warpgate</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Faction.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="Item\IEquipable.cs" />
+    <Compile Include="Item\IStorable.cs" />
+    <Compile Include="Location\Bridge.cs" />
+    <Compile Include="Item\Commodity.cs" />
+    <Compile Include="Panels\CommodityDetailPanel.cs" />
+    <Compile Include="Panels\CommoditySalePanel.cs" />
+    <Compile Include="Panels\CommodityTransactionPanel.cs" />
+    <Compile Include="Panels\ConfirmationMessagePanel.cs" />
+    <Compile Include="Panels\ConversationPanel.cs" />
+    <Compile Include="Panels\CrewStatsPanel.cs" />
+    <Compile Include="Panels\EquipmentBrowsePanel.cs" />
+    <Compile Include="Panels\EquipmentDetailPanel.cs" />
+    <Compile Include="Panels\EquipmentTransactionPanel.cs" />
+    <Compile Include="Panels\HighScorePanel.cs" />
+    <Compile Include="Panels\IPanel.cs" />
+    <Compile Include="Panels\MainMenuPanel.cs" />
+    <Compile Include="Panels\MissionSelectionPanel.cs" />
+    <Compile Include="Panels\NavigationPanel.cs" />
+    <Compile Include="Panels\OperationAssetPanel.cs" />
+    <Compile Include="Panels\OperationBudgetPanel.cs" />
+    <Compile Include="Panels\OptionPanel.cs" />
+    <Compile Include="Panels\ShipBrowsePanel.cs" />
+    <Compile Include="Panels\ShipEquipmentPanel.cs" />
+    <Compile Include="Panels\ShipTransactionPanel.cs" />
+    <Compile Include="Pawn\Captain.cs" />
+    <Compile Include="Pawn\Crew.cs" />
+    <Compile Include="Item\Equipment.cs" />
+    <Compile Include="Location\Bar.cs" />
+    <Compile Include="Location\Location.cs" />
+    <Compile Include="Location\MissionStation.cs" />
+    <Compile Include="Location\EquipmentShop.cs" />
+    <Compile Include="Location\Shipyard.cs" />
+    <Compile Include="Location\Hub.cs" />
+    <Compile Include="Item\Ship.cs" />
+    <Compile Include="Player\State.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Universe\Station.cs" />
+    <Compile Include="Universe\Planet.cs" />
+    <Compile Include="Universe\Sector.cs" />
+    <Compile Include="Universe\SolarSystem.cs" />
+    <Compile Include="Universe\SpaceStation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="prototype universe.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

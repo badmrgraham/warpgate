@@ -1,0 +1,11 @@
+E:\workspace\warpgate\warpgate\Warpgate\bin\Debug\prototype universe.xml
+E:\workspace\warpgate\warpgate\Warpgate\bin\Debug\Warpgate.dll
+E:\workspace\warpgate\warpgate\Warpgate\bin\Debug\Warpgate.pdb
+E:\workspace\warpgate\warpgate\Warpgate\obj\Debug\ResolveAssemblyReference.cache
+E:\workspace\warpgate\warpgate\Warpgate\obj\Debug\Warpgate.dll
+E:\workspace\warpgate\warpgate\Warpgate\obj\Debug\Warpgate.pdb
+D:\workspace\warpgate\warpgate\Warpgate\bin\Debug\prototype universe.xml
+D:\workspace\warpgate\warpgate\Warpgate\bin\Debug\Warpgate.dll
+D:\workspace\warpgate\warpgate\Warpgate\bin\Debug\Warpgate.pdb
+D:\workspace\warpgate\warpgate\Warpgate\obj\Debug\Warpgate.dll
+D:\workspace\warpgate\warpgate\Warpgate\obj\Debug\Warpgate.pdb

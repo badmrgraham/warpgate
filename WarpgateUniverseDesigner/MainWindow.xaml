@@ -1,0 +1,82 @@
+﻿<Window x:Class="WarpgateUniverseDesigner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Warpgate="clr-namespace:Warpgate;assembly=Warpgate"
+        xmlns:Universe="clr-namespace:Warpgate.Universe;assembly=Warpgate"
+        xmlns:WarpgateUniverseDesigner="clr-namespace:WarpgateUniverseDesigner" Title="MainWindow" 
+        Height="350" 
+        Width="525" DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <Window.Resources>
+<!--        <ObjectDataProvider x:Key="Sectors" />-->
+        <ObjectDataProvider x:Key="dataFromEnum" MethodName="GetValues" ObjectType="{x:Type Warpgate:Faction}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="Warpgate:Faction"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <WarpgateUniverseDesigner:SourceIsNullConverter x:Key="sourceIsNullConverter" />
+    </Window.Resources>
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top" LastChildFill="False" Margin="0,0,0,10">
+            <Button x:Name="SaveButton" Content="Save" DockPanel.Dock="Right" Margin="10,0,0,0" Click="SaveButtonClick1" />
+            <Button x:Name="LoadButton" Content="Load" DockPanel.Dock="Right" Margin="10,0,0,0" Click="LoadButtonClick1"/>
+        </DockPanel>
+        <DockPanel>
+            <DockPanel DockPanel.Dock="Left">
+                <TreeView x:Name="UniverseTreeView" ItemsSource="{Binding Sectors}" Width="200" SelectedItemChanged="UniverseTreeViewSelectedItemChanged" >
+                    <TreeView.Resources>
+                        <HierarchicalDataTemplate DataType="{x:Type Universe:Sector}" ItemsSource="{Binding Systems}" >
+                            <TextBlock Text="{Binding Path=Name, Mode=TwoWay}" />
+                        </HierarchicalDataTemplate>
+                        <HierarchicalDataTemplate DataType="{x:Type Universe:SolarSystem}" ItemsSource="{Binding Stations}" >
+                            <TextBlock Text="{Binding Path=Name, Mode=TwoWay}" />
+                        </HierarchicalDataTemplate>
+                        <HierarchicalDataTemplate DataType="{x:Type Universe:Station}" >
+                            <TextBlock Text="{Binding Path=Name, Mode=TwoWay}" />
+                        </HierarchicalDataTemplate>
+                    </TreeView.Resources>
+                </TreeView>
+            </DockPanel>
+            <DockPanel LastChildFill="False" DockPanel.Dock="Right">
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock DockPanel.Dock="Left" Text="Sectors: " Margin="0,0,10,0" />
+                    <Button x:Name="addSector"  Content="Add" DockPanel.Dock="Right" Margin="10,0,0,0" Click="AddSectorClick1" />
+                    <ComboBox x:Name="cboSector" ItemsSource="{Binding Sectors}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedSector}" DockPanel.Dock="Right" SelectionChanged="CboSectorSelectionChanged" />
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock Text="Sector Name: " DockPanel.Dock="Left" Margin="20,0,10,0" />
+                    <TextBox Text="{Binding SelectedSector.Name, Mode=TwoWay}" IsEnabled="{Binding SelectedSector, Converter={StaticResource sourceIsNullConverter}}" />
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock Text="Sector Faction: " DockPanel.Dock="Left" Margin="20,0,10,0" />
+                    <TextBox Text="{Binding SelectedSector.Faction, Mode=OneWay}" IsEnabled="False" />
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock DockPanel.Dock="Left" Text="Systems: " Margin="0,0,10,0" />
+                    <Button x:Name="addSystem"  Content="Add" DockPanel.Dock="Right" Margin="10,0,0,0" Click="AddSystemClick1" />
+                    <ComboBox x:Name="cboSys" ItemsSource="{Binding Systems}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedSystem}" DockPanel.Dock="Left" SelectionChanged="SyssSelectionChanged" IsEnabled="{Binding Systems, Converter={StaticResource sourceIsNullConverter}}" />
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock Text="System Name: " DockPanel.Dock="Left" Margin="20,0,10,0" />
+                    <TextBox Text="{Binding SelectedSystem.Name, Mode=TwoWay}" IsEnabled="{Binding SelectedSystem, Converter={StaticResource sourceIsNullConverter}}" />
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock Text="Sector Faction: " DockPanel.Dock="Left" Margin="20,0,10,0" />
+                    <TextBox Text="{Binding SelectedSystem.Faction, Mode=OneWay}" IsEnabled="False" />
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock DockPanel.Dock="Left" Text="Stations: " Margin="0,0,10,0" />
+                    <Button x:Name="addStation"  Content="Add" DockPanel.Dock="Right" Margin="10,0,0,0" />
+                    <ComboBox x:Name="cboStation" ItemsSource="{Binding Stations}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedStation}" DockPanel.Dock="Top" IsEnabled="{Binding Stations, Converter={StaticResource sourceIsNullConverter}}" />
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock Text="Station Name: " DockPanel.Dock="Left" Margin="20,0,10,0" />
+                    <TextBox Text="{Binding SelectedStation.Name, Mode=TwoWay}" IsEnabled="{Binding SelectedStation, Converter={StaticResource sourceIsNullConverter}}" />
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top">
+                    <TextBlock Text="Sector Faction: " DockPanel.Dock="Left" Margin="20,0,10,0" />
+                    <ComboBox ItemsSource="{Binding Source={StaticResource dataFromEnum}}" SelectedValue="{Binding SelectedStation.Faction, Mode=TwoWay}" IsEnabled="{Binding SelectedStation, Converter={StaticResource sourceIsNullConverter}}" SelectionChanged="ComboBoxSelectionChanged" />
+                </DockPanel>
+            </DockPanel>
+        </DockPanel>
+    </DockPanel>
+</Window>

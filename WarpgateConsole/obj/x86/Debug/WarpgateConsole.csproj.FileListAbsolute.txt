@@ -1,0 +1,18 @@
+E:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\prototype universe.xml
+E:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\WarpgateConsole.exe.config
+E:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\WarpgateConsole.exe
+E:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\WarpgateConsole.pdb
+E:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\Warpgate.dll
+E:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\Warpgate.pdb
+E:\workspace\warpgate\warpgate\WarpgateConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\workspace\warpgate\warpgate\WarpgateConsole\obj\x86\Debug\WarpgateConsole.exe
+E:\workspace\warpgate\warpgate\WarpgateConsole\obj\x86\Debug\WarpgateConsole.pdb
+D:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\WarpgateConsole.exe.config
+D:\workspace\warpgate\warpgate\WarpgateConsole\obj\x86\Debug\WarpgateConsole.exe
+D:\workspace\warpgate\warpgate\WarpgateConsole\obj\x86\Debug\WarpgateConsole.pdb
+D:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\prototype universe.xml
+D:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\WarpgateConsole.exe
+D:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\WarpgateConsole.pdb
+D:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\Warpgate.dll
+D:\workspace\warpgate\warpgate\WarpgateConsole\bin\Debug\Warpgate.pdb
+D:\workspace\warpgate\warpgate\WarpgateConsole\obj\x86\Debug\WarpgateConsole.csprojResolveAssemblyReference.cache

@@ -1,0 +1,34 @@
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\prototype universe.xml
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\Warpgate.dll
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\Warpgate.pdb
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\MainWindow.g.cs
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\App.g.cs
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner_MarkupCompile.cache
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner_MarkupCompile.lref
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\MainWindow.baml
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.g.resources
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.Properties.Resources.resources
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.exe
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.pdb
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\WarpgateUniverseDesigner.exe
+E:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\WarpgateUniverseDesigner.pdb
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.exe
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.pdb
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\prototype universe.xml
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\WarpgateUniverseDesigner.exe
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\WarpgateUniverseDesigner.pdb
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\Warpgate.dll
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\bin\Debug\Warpgate.pdb
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\MainWindow.g.cs
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\App.g.cs
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner_MarkupCompile.cache
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner_MarkupCompile.lref
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\MainWindow.baml
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.g.resources
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.Properties.Resources.resources
+D:\workspace\warpgate\warpgate\WarpgateUniverseDesigner\obj\x86\Debug\WarpgateUniverseDesigner.csproj.GenerateResource.Cache

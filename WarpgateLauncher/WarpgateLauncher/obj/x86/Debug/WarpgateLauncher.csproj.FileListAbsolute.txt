@@ -1,0 +1,15 @@
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\WarpgateLauncher.exe
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\WarpgateLauncher.pdb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\obj\x86\Debug\WarpgateLauncher.exe
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\obj\x86\Debug\WarpgateLauncher.pdb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\images\windowborder\bottomleft.xnb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\images\windowborder\bottomright.xnb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\images\windowborder\sidebottom.xnb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\images\windowborder\sideleft.xnb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\images\windowborder\sideright.xnb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\images\windowborder\sidetop.xnb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\images\windowborder\topleft.xnb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\images\windowborder\topright.xnb
+E:\workspace\warpgate\warpgate\WarpgateLauncher\WarpgateLauncher\bin\x86\Debug\Content\topleft.xnb
